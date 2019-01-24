@@ -1,10 +1,14 @@
 ## Log into the system
 
 Log into the system and select a database (optional):
-> mongo [dbname]
+```bash
+mongo [dbname]
+```
 
 Log into the system with a specific user and select a database (optional):
-> mongo [dbname] -u <user> -p
+```bash
+mongo [dbname] -u <user> -p
+```
 
 ## Common commands
 

@@ -10,7 +10,9 @@ Log into the system with a specific user and select a database (optional):
 
 Once logged into the system we can use the following common commands:
 
-> show dbs
-> use photomanager
-> show collections
+```bash
+show dbs
+use photomanager
+show collections
+```
 

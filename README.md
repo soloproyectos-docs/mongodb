@@ -14,7 +14,7 @@ Log into the system with a specific user and select a database (optional):
 mongo [dbname] -u <user> -p
 ```
 
-## Common commands
+## Display commands
 
 Once logged into the system we can use the following common commands:
 
@@ -29,3 +29,16 @@ use photomanager
 show collections
 ```
 
+## Users
+
+```JavaScript
+// Creates a database user with read and write permissions.
+db.createUser({
+  user: 'username',
+  pwd: 'password',
+  roles: ['readWrite']
+});
+
+// drop a specific database user
+db.dropUser('username');
+```

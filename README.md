@@ -10,7 +10,7 @@ Log into the system with a specific user and select a database (optional):
 
 Once logged into the system we can use the following common commands:
 
-```console
+```{r, engine='bash', count_lines}
 // display a list of available databases
 show dbs
 

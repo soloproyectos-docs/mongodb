@@ -11,7 +11,9 @@ Log into the system with a specific user and select a database (optional):
 Once logged into the system we can use the following common commands:
 
 ```bash
+// display a list of available databases
 show dbs
+
 use photomanager
 show collections
 ```

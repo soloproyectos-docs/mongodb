@@ -10,12 +10,14 @@ Log into the system with a specific user and select a database (optional):
 
 Once logged into the system we can use the following common commands:
 
-```JavaScript
-// display a list of available databases
+```bash
+# display databases
 show dbs
 
-// use a specific database
+# use a specific database
 use photomanager
+
+# display collections
 show collections
 ```
 
